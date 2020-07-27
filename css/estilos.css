@@ -1,0 +1,238 @@
+body {
+    font-family: system-ui, apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+#presentacion {
+    background-color: #71C9F8;
+    padding: 0;
+    background-image: url(../img/logo.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.principal {
+    height: 575px!important;
+}
+
+#div-terminos {
+    padding: 10px 5px;
+}
+
+#unete {
+    background-color: white;
+    padding: 0;
+}
+
+.iconos-pequenos {
+    fill: white;
+}
+
+.div-contenido {
+    margin-top: 190px;
+    margin-left: 145px;
+}
+
+.iconos-principales {
+    height: 27px;
+    width: 30px;
+}
+
+.letra-iconos {
+    color:white;
+    font-family: system-ui, apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+#contenido-iconos {
+    margin-top: 225px;
+    margin-left: 22%;
+}
+
+#contenido-registro {
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding: 15% 21.23%;
+}
+
+#logo-registro {
+    height: 30px;
+    width: 35px;
+    margin-bottom: 32px;
+}
+
+#texto-mira {
+    color: black;
+    line-height: 39px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+#texto-unete {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.btn {
+    border-radius: 25px;
+    background-color: #1DA1F2;
+    color: white;
+    border-color: #1DA1F2;
+    height: 38px!important;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.iniciar-sesion {
+    background-color: white!important;
+    color: #1DA1F2;
+}
+
+.iniciar-sesion:hover {
+    color: #1DA1F2;
+}
+
+.links {
+    color: #657786;
+    line-height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 1%;
+    text-align: center;
+}
+
+#Registrate {
+    margin-top: -9px;
+    margin-bottom: 14px;
+}
+
+.links:hover{
+    color: #657786;
+}
+
+#icono-modal {
+    height: 23px;
+    width: 23px;
+}
+
+.boton-registro {
+    height:30px!important;
+    width: 90px!important;
+    float: right!important;
+    font-size: 15px!important;
+    line-height: 19.7px!important;
+    padding: 0 12px 0 14px;
+}
+
+#mod-cont-registro {
+    border-radius: 10px;
+    border-color: white;
+}
+
+#div-crea-cuenta {
+    font-size: 23px;
+    line-height: 30.2px;
+    font-weight: bold;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 25px;
+}
+
+input[type=text] {
+    background: #F5F8FA;
+    border: none;
+    border-bottom: 2px solid #657786;
+    color:#657786;
+    position: relative;
+    bottom: 2px;
+    padding-top: 10px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.rotulo-registro {
+    background-color: #F5F8FA;
+    display: inline-block!important;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#657786;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+.input-linea {
+    background-color: #F5F8FA;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.row-registrar {
+    box-sizing: border-box!important; 
+    display: block!important;
+    margin: 15px!important;
+}
+
+#contador-caracteres {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #657786;
+    float: right;
+    padding: 0 25px;
+    position: relative;
+    bottom: 13px;
+}
+
+.seleccionar-letra {
+    color:#1DA1F2!important;
+}
+
+.seleccionar-input {
+    border-bottom: 2px solid #1DA1F2!important;
+}
+
+.usar-correo {
+    font-size: 15px!important;
+    line-height: 20px!important;
+    font-weight: 400!important;
+    color: #1b95e0!important;
+}
+
+.usar-correo:hover {
+    text-decoration: underline!important;
+    cursor: pointer;
+}
+
+#fecha-nacimiento {
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.texto-inf {
+    color:#657786;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.fecha {
+    border:0px;
+    outline:0px;
+    border-bottom: 2px solid #657786;
+    background: #F5F8FA;
+    padding-top: 0;
+    position: relative;
+    bottom: 2px;
+}
