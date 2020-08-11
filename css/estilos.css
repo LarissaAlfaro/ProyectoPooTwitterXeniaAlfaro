@@ -41,7 +41,7 @@ body {
 .letra-iconos {
     color:white;
     font-family: system-ui, apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
-    font-weight: 500;
+    font-weight: 750;
     font-size: 1.2rem;
 }
 
@@ -59,7 +59,7 @@ body {
 
 #logo-registro {
     height: 30px;
-    width: 35px;
+    width: 37px;
     margin-bottom: 32px;
 }
 
@@ -90,11 +90,7 @@ body {
 
 .iniciar-sesion {
     background-color: white!important;
-    color: #1DA1F2;
-}
-
-.iniciar-sesion:hover {
-    color: #1DA1F2;
+    color: #1DA1F2!important;
 }
 
 .links {
@@ -111,13 +107,13 @@ body {
     margin-bottom: 14px;
 }
 
-.links:hover{
+.links:hover {
     color: #657786;
 }
 
 #icono-modal {
-    height: 23px;
-    width: 23px;
+    height: 25px;
+    width: 25px;
 }
 
 .boton-registro {
@@ -153,7 +149,22 @@ input[type=text] {
     padding-top: 10px;
 }
 
+input[type=password] {
+    background: #F5F8FA;
+    border: none;
+    border-bottom: 2px solid #657786;
+    color:#657786;
+    position: relative;
+    bottom: 2px;
+    padding-top: 10px;
+}
+
+
 input[type=text]:focus {
+    outline: none;
+}
+
+input[type=password]:focus {
     outline: none;
 }
 
@@ -167,6 +178,7 @@ input[type=text]:focus {
     padding-right: 10px;
     padding-left: 10px;
     margin-bottom: 0;
+    padding-top: 5px;
 }
 
 .input-linea {
@@ -181,7 +193,7 @@ input[type=text]:focus {
     margin: 15px!important;
 }
 
-#contador-caracteres {
+.nota {
     font-size: 15px;
     line-height: 20px;
     font-weight: 400;
@@ -192,6 +204,12 @@ input[type=text]:focus {
     bottom: 13px;
 }
 
+.correo-invalido {
+    position: relative;
+    top: 3px;
+    left: -13px;
+}
+
 .seleccionar-letra {
     color:#1DA1F2!important;
 }
@@ -200,14 +218,22 @@ input[type=text]:focus {
     border-bottom: 2px solid #1DA1F2!important;
 }
 
-.usar-correo {
+.seleccionar-letra-invalido {
+    color: #E2356B!important;
+}
+
+.seleccionar-input-invalido {
+    border-bottom: 2px solid #E2356B!important;
+}
+
+.link-pequeño {
     font-size: 15px!important;
     line-height: 20px!important;
     font-weight: 400!important;
     color: #1b95e0!important;
 }
 
-.usar-correo:hover {
+.link-pequeño:hover {
     text-decoration: underline!important;
     cursor: pointer;
 }
@@ -235,4 +261,113 @@ input[type=text]:focus {
     padding-top: 0;
     position: relative;
     bottom: 2px;
+}
+
+.inicio-sesion:hover {
+    text-decoration: none;
+}
+
+#sesion {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#titulo-sesion {
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    padding-top: 35px;
+    display: inline-block;
+}
+
+#img-sesion {
+    height:35px;
+    width:35px;
+}
+
+.seccion {
+    border-right: solid 1px #E6ECF0;
+    border-right: solid 1px #E6ECF0;  
+}
+
+.barra-lateral {
+    padding-left: 3%;
+    max-width: 311px!important;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.svg-circle {
+    fill: #1DA1F2;
+    width: 30px;
+}
+
+.svg-no-seleccion {
+    fill: black;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.boton-seccion {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 25px;
+}
+
+.boton-seccion:hover .svg-no-seleccion{
+    background-color: #E8F5FE;
+    color:  #1DA1F2;
+    fill:  #1DA1F2;
+}   
+
+.boton-seccion:hover {
+    background-color: #E8F5FE;
+    color: #1DA1F2;
+    fill: #1DA1F2;
+} 
+
+.boton-seccion:focus {
+    outline: none;
+}
+
+.boton-redondo {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+.boton-redondo:hover {
+    background-color: #E8F5FE;
+}
+
+.letras-seccion {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    color: black;
+}
+
+.boton-twittear {
+    margin-top: 10px!important;
+    height: 48px!important;
+    max-width: 211px!important;
+    margin-left: 2%!important;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

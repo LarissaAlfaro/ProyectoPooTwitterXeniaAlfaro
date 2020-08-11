@@ -1,113 +1,113 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Gorjeo. Esto es lo que está pasando.</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="img/sh-icon.png" type="img/png">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/estilos.css">
-    </head>
-    <body>
-        <div class="containter" style="position: relative;">
-            <div class="row" style="border:0; margin:0; padding:0;">
-                <div class="col-sm-6 sm-md-6 lg-12 xl-12 principal" id="presentacion"> 
-                    <div class="row" id="contenido-iconos">
-                        <div class="col-12" style="margin-bottom:50px">
-                            <img class="iconos-principales" src="img/icono-lupa.png"><span class="letra-iconos">  Sigue lo que te interesa.</span>
-                        </div>
-                        
-                        <div class="col-12" style="margin-bottom:45px">
-                            <img class="iconos-principales" src="img/icono-personas.png"><span class="letra-iconos">  Entérate de qué están hablando la gente.</spn>
-                        </div>
-
-                        <div class="col-12">
-                            <img class="iconos-principales" src="img/icono-chat.png"><span class="letra-iconos">  Únete a la conversación.</span>
-                        </div>
-                    </div>
-                </div> 
-                <div class="col-sm-6 md-6 lg-12 xl-12 principal" id="unete"> 
-                    <div class="row" id="contenido-registro">
-                        <div class="col-12-pl-0 sm-12-pl-0 md-12 lg-12 xl-12">
-                            <img src="img/logo.svg.png" id="logo-registro">
-                            <div id="texto-mira">Mira lo que está pasando en el mundo en este momento</div> 
-                            <div id="texto-unete">Únete a Twitter hoy mismo.</div><br>
-                            <button type="button" class="btn btn-primary btn-block" id="Registrate" data-toggle="modal-registrar" onclick="registrar();">Regístrate</button>
-                            <button type="button" class="btn btn-primary btn-block iniciar-sesion" id="iniciar-sesion">Iniciar sesión</button>
-                        </div>
-                    </div>
-                </div>        
-            </div>
-            <div class="col-12" id="div-terminos"  style="position:absolute">
-                <p style="text-align:center; margin-bottom:0">
-                    <a class="links" href="#">Acerca de</a>
-                    <a class="links" href="#">Centro de ayuda</a>
-                    <a class="links" href="#">Términos</a>
-                    <a class="links" href="#">Política de privacidad</a>
-                    <a class="links" href="#">Cookies</a>
-                    <a class="links" href="#">Información de Anuncios</a>
-                    <a class="links" href="#">Blog</a>
-                    <a class="links" href="#">Estado</a>
-                    <a class="links" href="#">Trabajos</a>
-                    <a class="links" href="#">Marca</a>
-                    <a class="links" href="#">Publicar anuncios</a>
-                    <a class="links" href="#">Marketing</a>
-                    <a class="links" href="#">Empresas</a>
-                    <a class="links" href="#">Desarrolladores</a>
-                    <a class="links" href="#">Guía</a>
-                    <a class="links" href="#">Configuración</a>
-                    <a class="links" href="#">© 2020 Twitter, Inc.</a>
-                </p> 
-            </div>
-        </div>
-
-    
-
-
-
-        <div class="modal" id="modal-registrar" tabindex="-1" role="dialog" aria-labelledby="modal-registrarLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-extra" style="max-width: 600px;">
-                <div class="modal-content" id="mod-cont-registro">
-                    <div class="modal-body" style="padding: 12px">
-                        <div style="padding-left: 48.5%;">
-                            <img src="img/sh-icon.png" id="icono-modal">
-                            <button type="button" class="btn btn-primary boton-registro">Próximo</button>
-                        </div>
-                        <div class="containter">   
-                            <div class="row row-registrar" id="registrar-nombre">
-                                <div class="col-12" id="div-crea-cuenta">Crea tu cuenta</div>
-                                <label class="col-12 rotulo-registro" for="campo-nombre" id="label-nombre">Apellido y Nombre</label>
-                                <input type="text" maxlength="50" class="col-12 input-linea" id="campo-nombre" onkeyup="contarCaracteres(this);" onclick="ingresarNombre();">
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Gorjeo. Esto es lo que está pasando.</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="shortcut icon" href="img/sh-icon.png" type="img/png">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+            <link rel="stylesheet" href="css/estilos.css">
+        </head>
+        <body>
+            <div class="containter" style="position: relative;">
+                <div class="row" style="border: 0; margin: 0; padding: 0;">
+                    <div class="col-sm-6 sm-md-6 lg-12 xl-12 principal" id="presentacion"> 
+                        <div class="row" id="contenido-iconos">
+                            <div class="col-12" style="margin-bottom:50px">
+                                <img class="iconos-principales" src="img/icono-lupa.png"><span class="letra-iconos">  Sigue lo que te interesa.</span>
                             </div>
-                            <div><span id="contador-caracteres">0/0</span></div>
-                            <div class="row row-registrar" id="registrar2">
-                                <label class="col-12 rotulo-registro" for="campo-telefono" id="label-telefono">Teléfono</label>
-                                <input type="text" class="col-12 input-linea" id="campo-telefono" onclick="ingresarTelefono();">
-                                <div style="margin-top:25px; margin-bottom: 25px;"><a class="usar-correo" onclick="cambiarTel();" id="correo-tel">Usar correo eléctronico</a></div>
-                                <p id="fecha-nacimiento">Fecha de nacimiento</p>
-                                <p class="texto-inf">Esta información no se mostrará públicamente. Confirme su edad, incluso si esta cuenta es para un negocio, mascota u otra cosa.</p>
+                            
+                            <div class="col-12" style="margin-bottom: 45px">
+                                <img class="iconos-principales" src="img/icono-personas.png"><span class="letra-iconos">  Entérate de qué están hablando la gente.</spn>
                             </div>
-                            <div class="col-12" style="padding-bottom: 100px;">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <label class="col-12 rotulo-registro" for="fecha-mes" id="label-telefono">Mes</label>
-                                        <select class="form-control fecha" id="fecha-mes">
-                                            <option>Enero</option><option>Febrero</option><option>Marzo</option><option>Abril</option><option>Mayo</option><option>Junio</option><option>Julio</option><option>Agosto</option><option>Septiembre</option><option>Octubre</option><option>Noviembre</option><option>Diciembre</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <label class="col-12 rotulo-registro" for="fecha-dia" id="label-telefono">Día</label>
-                                                <select class="form-control fecha" id="fecha-dia">
-                                                    <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-6">
-                                                <label class="col-12 rotulo-registro" for="fecha-año" id="label-telefono">Año</label>
-                                                <select class="form-control fecha" id="fecha-año">
-                                                    <option>1999</option><option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option><option>2005</option><option>2006</option><option>2007</option><option>2008</option><option>2009</option><option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option><option>2015</option><option>2016</option><option>2017</option><option>2018</option><option>2019</option><option>2020</option>
-                                                </select>
+
+                            <div class="col-12">
+                                <img class="iconos-principales" src="img/icono-chat.png"><span class="letra-iconos">  Únete a la conversación.</span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-sm-6 md-6 lg-12 xl-12 principal" id="unete"> 
+                        <div class="row" id="contenido-registro">
+                            <div class="col-12-pl-0 sm-12-pl-0 md-12 lg-12 xl-12">
+                                <img src="img/logo.svg.png" id="logo-registro">
+                                <div id="texto-mira">Mira lo que está pasando en el mundo en este momento</div> 
+                                <div id="texto-unete">Únete a Twitter hoy mismo.</div><br>
+                                <button type="button" class="btn btn-primary btn-block" id="Registrate" data-toggle="modal-registrar" onclick="registrar();">Regístrate</button>
+                                <a href="login.html" class="inicio-sesion"><button type="button" class="btn btn-primary btn-block iniciar-sesion" id="iniciar-sesion">Iniciar sesión</button></a>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+                <div class="col-12" id="div-terminos"  style="position:absolute">
+                    <p style="text-align: center; margin-bottom: 0">
+                        <a class="links" href="#">Acerca de</a>
+                        <a class="links" href="#">Centro de ayuda</a>
+                        <a class="links" href="#">Términos</a>
+                        <a class="links" href="#">Política de privacidad</a>
+                        <a class="links" href="#">Cookies</a>
+                        <a class="links" href="#">Información de Anuncios</a>
+                        <a class="links" href="#">Blog</a>
+                        <a class="links" href="#">Estado</a>
+                        <a class="links" href="#">Trabajos</a>
+                        <a class="links" href="#">Marca</a>
+                        <a class="links" href="#">Publicar anuncios</a>
+                        <a class="links" href="#">Marketing</a>
+                        <a class="links" href="#">Empresas</a>
+                        <a class="links" href="#">Desarrolladores</a>
+                        <a class="links" href="#">Guía</a>
+                        <a class="links" href="#">Configuración</a>
+                        <a class="links" href="#">© 2020 Twitter, Inc.</a>
+                    </p> 
+                </div>
+            </div>
+
+        
+            <div class="modal" id="modal-registrar" tabindex="-1" role="dialog" aria-labelledby="modal-registrarLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-extra" style="max-width: 600px;">
+                    <div class="modal-content" id="mod-cont-registro">
+                        <div class="modal-body" style="padding: 12px">
+                            <div style="padding-left: 48.5%;">
+                                <img src="img/sh-icon.png" id="icono-modal">
+                                <a style="text-decoration: none" id="proximo" href="home.html"><button type="button" class="btn btn-primary boton-registro" onclick="nuevoUsuario();">Próximo</button></a>
+                            </div>
+                            <div class="containter">   
+                                <div class="row row-registrar" id="registrar-nombre">
+                                    <div class="col-12" id="div-crea-cuenta">Crea tu cuenta</div>
+                                    <label class="col-12 rotulo-registro" for="campo-nombre" id="label-nombre">Apellido y Nombre</label>
+                                    <input type="text" maxlength="50" class="col-12 input-linea" id="campo-nombre" onkeyup="contarCaracteres(this);" onclick="ingresarNombre();">
+                                </div>
+                                <span class="nota" style="color: #E2356B; float: left;" id="cual-nombre"></span><span id="contador-caracteres" class="nota">0/0</span>
+                                <div class="row row-registrar" id="registrar2">
+                                    <label class="col-12 rotulo-registro" for="campo-telefono" id="label-telefono">Teléfono</label>
+                                    <input type="text" class="col-12 input-linea" id="campo-telefono" onclick="ingresarTelefono(); verificarNombre();" onkeyup="validarTelefonoCorreo(this)">
+                                    <span class="nota correo-invalido" style="color: #E2356B; float: left;" id="telefono-invalido"></span>
+                                    <div style="margin-top: 25px; margin-bottom: 25px;"><a class="link-pequeño" onclick="cambiarTel();" id="correo-tel">Usar correo eléctronico</a></div>
+                                    <p id="fecha-nacimiento">Fecha de nacimiento</p>
+                                    <p class="texto-inf">Esta información no se mostrará públicamente. Confirme su edad, incluso si esta cuenta es para un negocio, mascota u otra cosa.</p>
+                                </div>
+                                <div class="col-12" style="padding-bottom: 100px;">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label class="col-12 rotulo-registro" for="fecha-mes" id="label-telefono">Mes</label>
+                                            <select class="form-control fecha" id="fecha-mes"> 
+                                                
+                                            </select>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <label class="col-12 rotulo-registro" for="fecha-dia" id="label-telefono">Día</label>
+                                                    <select class="form-control fecha" id="fecha-dia">
+                                                    
+                                                    </select>
+                                                </div>
+                                                <div class="col-6">
+                                                    <label class="col-12 rotulo-registro" for="fecha-año" id="label-telefono">Año</label>
+                                                    <select class="form-control fecha" id="fecha-año">
+                                                    
+                                                    </select>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -117,18 +117,11 @@
                     </div>
                 </div>
             </div>
-        </div>
-                   
-
-    
-    
-
-
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-        <script src="js/controlador.js"></script>
-
-    </body>
-</html>
+              
+            
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <script src="js/controlador.js"></script>
+        </body>
+    </html>
