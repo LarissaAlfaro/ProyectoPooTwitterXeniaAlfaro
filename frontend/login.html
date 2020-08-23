@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Conéctate a Twitter / Twitter</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="shortcut icon" href="img/sh-icon.png" type="img/png">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+            <link rel="stylesheet" href="css/estilos.css">
+        </head>
+        <body>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" id="sesion" style="text-align:center;">
+                        <div>
+                            <img id="img-sesion" src="img/sh-icon.png">
+                        </div>
+                        <div id="titulo-sesion">Conéctate a Twitter</div>
+                        <div id="login-invalido" style="display: none">El nombre de usuario y la contraseña que ingresó no coinciden con nuestros registros. Vuelva a verificar e inténtelo de nuevo.</div>
+                        <div class="row row-registrar">
+                            <label style="display: flex!important" class="col-12 rotulo-registro" for="campo-usuario" id="label-usuario">Teléfono, correo electrónico o nombre de usuario</label>
+                            <input type="text" maxlength="50" class="col-12 input-linea" id="campo-usuario" onclick="ingresarUsuario();" onkeyup="conectar();">
+                        </div>
+                        <div class="row row-registrar">
+                            <label style="display: flex!important" class="col-12 rotulo-registro" for="campo-contraseña" id="label-contraseña">Contraseña</label>
+                            <input type="password" class="col-12 input-linea" id="campo-contraseña" onclick="ingresarContraseña();" onkeyup="conectar();">
+                            <button disabled="true" style="margin-top: 18px; height: 48px!important" type="button" class="col-12 btn btn-primary btn-block" id="conectarse" onclick="conectarse()">Conectarse</button>
+                            <div style="padding-top: 27px"><a class="link-pequeño">¿Contraseña olvidada? </a><a onclick="registrar();" data-toggle="modal-registrar" class="link-pequeño">· Suscríbase en Twitter</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal" id="modal-registrar" tabindex="-1" role="dialog" aria-labelledby="modal-registrarLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-extra" style="max-width: 600px;">
+                    <div class="modal-content" id="mod-cont-registro">
+                        <div class="modal-body" style="padding: 12px">
+                            <div style="padding-left: 48.5%;">
+                                <img src="img/sh-icon.png" id="icono-modal">
+                                <a style="text-decoration: none" id="proximo" href="home.html"><button type="button" class="btn btn-primary boton-registro" onclick="nuevoUsuario();">Próximo</button></a>
+                            </div>
+                            <div class="containter">   
+                                <div class="row row-registrar" id="registrar-nombre">
+                                    <div class="col-12" id="div-crea-cuenta">Crea tu cuenta</div>
+                                    <label class="col-12 rotulo-registro" for="campo-nombre" id="label-nombre">Apellido y Nombre</label>
+                                    <input type="text" maxlength="50" class="col-12 input-linea" id="campo-nombre" onkeyup="contarCaracteres(this);" onclick="ingresarNombre();">
+                                </div>
+                                <span class="nota" style="color: #E2356B; float: left;" id="cual-nombre"></span><span id="contador-caracteres" class="nota">0/0</span>
+                                <div class="row row-registrar" id="registrar2">
+                                    <label class="col-12 rotulo-registro" for="campo-telefono" id="label-telefono">Teléfono</label>
+                                    <input type="text" class="col-12 input-linea" id="campo-telefono" onclick="ingresarTelefono(); verificarNombre();" onkeyup="validarTelefonoCorreo(this)">
+                                    <span class="nota correo-invalido" style="color: #E2356B; float: left;" id="telefono-invalido"></span>
+                                    <div style="margin-top: 25px; margin-bottom: 25px;"><a class="link-pequeño" onclick="cambiarTel();" id="correo-tel">Usar correo eléctronico</a></div>
+                                    <p id="fecha-nacimiento">Fecha de nacimiento</p>
+                                    <p class="texto-inf">Esta información no se mostrará públicamente. Confirme su edad, incluso si esta cuenta es para un negocio, mascota u otra cosa.</p>
+                                </div>
+                                <div class="col-12" style="padding-bottom: 100px;">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label class="col-12 rotulo-registro" for="fecha-mes" id="label-telefono">Mes</label>
+                                            <select class="form-control fecha" id="fecha-mes"> 
+                                                
+                                            </select>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <label class="col-12 rotulo-registro" for="fecha-dia" id="label-telefono">Día</label>
+                                                    <select class="form-control fecha" id="fecha-dia">
+                                                    
+                                                    </select>
+                                                </div>
+                                                <div class="col-6">
+                                                    <label class="col-12 rotulo-registro" for="fecha-año" id="label-telefono">Año</label>
+                                                    <select class="form-control fecha" id="fecha-año">
+                                                    
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+            <script src="js/controlador.js"></script>
+        </body>
+    </html>

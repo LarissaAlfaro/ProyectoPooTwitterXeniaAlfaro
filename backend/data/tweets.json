@@ -1,0 +1,294 @@
+[
+    {
+    "idTweet": 1,
+    "idUsuario": 1,
+    "contenido": "Se ha ido la luz en mi casa chicos... lo siento acabar asi el directo, nos vemos esta tarde con los videitos",
+            "fechaPublicacion": "20/Agosto/2020",
+            "likes": [
+                {
+                    "idUsuario": 7,
+                    "nombre": "Damien Ashley"
+                }
+            ],
+            "retweets": [
+                {
+                    "idUsuario": 6,
+                    "nombre": "Abner Castillo" 
+                }
+            ],
+            "respuestas": [
+                {
+                    "idRespuesta": 1,
+                    "idUsuario": 8,
+                    "nombre": "Ashley Brown",
+                    "contenido": "Latinoamerica moment",
+                    "fechaPublicacion": "20/Agosto/2020"
+                },
+                {
+                    "idRespuesta": 2,
+                    "idUsuario": 6,
+                    "nombre": "Abner Castillo",
+                    "contenido": "Esta bien dani te queremos igual",
+                    "fechaPublicacion": "20/Agosto/2020"
+                }
+            ]
+
+    },
+    {
+        "idTweet": 2,
+        "idUsuario": 2,
+        "contenido": "Weekend...I’ll be right there",
+			"fechaPublicacion": "21/Agosto/2020",
+			"likes": [
+				{
+					"idUsuario": 6,
+					"nombre": "Abner Castillo"
+				},
+				{
+					"idUsuario": 10,
+					"nombre": "Lisa Vicari"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 6,
+					"nombre": "Abner Castillo" 
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 10,
+					"nombre": "Lisa Vicari",
+					"contenido": "Weekend vibes",
+					"fechaPublicacion": "21/Agosto/2020"
+				}
+			]
+        },
+        {
+            "idTweet": 3,
+            "idUsuario": 3,
+            "contenido": "like a snake",
+			"fechaPublicacion": "30/Junio/2020",
+			"likes": [
+				{
+					"idUsuario": 8,
+					"nombre": "Ashley Brown" 
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 5,
+					"nombre": "Karimova Elina"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 9,
+					"nombre": "Hari Kumar",
+					"contenido": "life snake man",
+					"fechaPublicacion": "17/Agosto/2020"
+				}
+			]
+        },
+        {
+        "idTweet": 4,
+        "idUsuario": 4,
+        "contenido": "I had the privilege of speaking at the young men’s group at my church this week. It was awesome! Psychologists, sociologists, and parents everywhere agree that boys are being left behind these days.",
+			"fechaPublicacion": "23/Julio/2020",
+			"likes": [
+				{
+					"idUsuario": 9,
+					"nombre": "Hari Kumar"
+				},
+				{
+					"idUsuario": 7,
+					"nombre": "Damien Ashley"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 9,
+					"nombre": "Hari Kumar"
+				},
+				{
+					"idUsuario": 7,
+					"nombre": "Damien Ashley"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 7,
+					"nombre": "Damien Ashley",
+					"contenido": "Wow! Having a leader like you is a great privilege. Lucky guys",
+					"fechaPublicacion": "23/Julio/2020"
+				}
+			]
+       
+        },
+        {
+            "idTweet": 5,
+            "idUsuario": 5,
+            "contenido": "I want to change my hair color, what color should I do?" ,
+			"fechaPublicacion": "14/Agosto/2020",
+			"likes": [
+				{
+					"idUsuario": 3,
+					"nombre": "Dasha Taran"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 3,
+					"nombre": "Dasha Taran"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 3,
+					"nombre": "Dasha Taran",
+					"contenido": "I think it's look beautiful with brown and black mix it looks good on u or any natural color ",
+					"fechaPublicacion": "15/Agosto/2020"
+				}
+			]
+        },
+        {
+            "idTweet": 6,
+            "idUsuario": 6,
+            "contenido": "PORTATECI KHEDIRA, RUGANI E HIGUAIN E VINCEMO ER QUARTO E LA DECIMA. FORZA LUPA DA AURELIO DE TOR BELLA MONACA",
+			"fechaPublicacion": "17/Agosto/2020",
+			"likes": [
+				{
+					"idUsuario": 9,
+					"nombre": "Hari Kumar"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 7,
+					"nombre": "Damien Ashley"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 7,
+					"nombre": "Damien Ashley",
+					"contenido": "A cosa ci siamo ridotti mi chiedo io",
+					"fechaPublicacion": "17/Agosto/2020"
+				}
+			]
+        },
+        {
+            "idTweet": 7,
+            "idUsuario": 7,
+            "contenido": "Después de tanto. Siempre sale el sol.",
+			"fechaPublicacion": "21/Agosto/2020",
+			"likes": [
+				{
+					"idUsuario": 9,
+					"nombre": "Hari Kumar" 
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 9,
+					"nombre": "Hari Kumar"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 9,
+					"nombre": "Hari Kumar",
+					"contenido": "Lo que tuvo que perder para ganar",
+					"fechaPublicacion": "21/Agosto/2020"
+				}
+			]
+        },
+        {
+        "idTweet": 8,
+        "idUsuario": 8,
+        "contenido": "Ya ando mood “stalker” en las páginas de meteorología por la depresión tropical #13.",
+			"fechaPublicacion": "20/Agosto/2020",
+			"likes": [
+				{
+					"idUsuario": 2,
+					"nombre": "Samantha Gangal"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 7,
+					"nombre": "Damien Ashley"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 7,
+					"nombre": "Damien Ashley",
+					"contenido": "¿Aun no tiene nombre? ¿Qué página recomiendas?",
+					"fechaPublicacion": "20/Agosto/2020"
+				}
+			]
+        },
+        {
+        "idTweet": 9,
+        "idUsuario": 9,
+    
+        "contenido": "Solo Dios puede cambiar a las personas, nosotros, amar así como son y ser amados así",
+        "fechaPublicacion": "16/Julio/2020",
+        "likes": [
+            {
+                "idUsuario": 4,
+                "nombre": "John Cooper"
+            }
+        ],
+        "retweets": [
+            {
+                "idUsuario": 4,
+                "nombre": "John Cooper"
+            }
+        ],
+        "respuestas": [
+            {
+                "idRespuesta": 1,
+                "idUsuario": 4,
+                "nombre": "John Cooper",
+                "contenido": "¡¡Amén!!",
+                "fechaPublicacion": "20/Julio/2020"
+            }
+        ]
+        },
+        {
+        "idTweet": 10,
+        "idUsuario": 10,
+        "contenido": "glitches in the matrix?",
+        "fechaPublicacion": "9/Julio/2020",
+        "likes": [
+            {
+                "idUsuario": 9,
+                "nombre": "Hari Kumar"
+            }
+        ],
+        "retweets": [
+            {
+                "idUsuario": 1,
+                "nombre": "Daniel Hidalgo Pérez"
+            }
+        ],
+        "respuestas": [
+            {
+                "idRespuesta": 1,
+                "idUsuario": 8,
+                "nombre": "Ashley Brown",
+                "contenido": "Could it be any more cuter?",
+                "fechaPublicacion": "20/Agosto/2020"
+            }
+        ]
+    }
+]

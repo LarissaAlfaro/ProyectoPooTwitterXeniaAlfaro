@@ -1,0 +1,893 @@
+[	
+	{
+		"idUsuario": 1,
+		"nombre": "Daniel Hidalgo Pérez",
+		"usuario": "@DaniRep",
+		"contraseña": "asd987",
+		"telefono": 90890312,
+		"correo": "esteesmicorreo@hotmail.com",
+		"fechaUnion": "Noviembre 2012",
+		"fechaNacimiento": "11/Junio/1997",
+		"urlPerfil": "../img/imgUsuarios/1.jpg",
+		"urlEncabezado": "../img/imgEncabezados/1.jpg",
+		"verificado": true,
+		"biografia": "Un ganador es tan solo un perdedor que lo intentó mas de una vez!",
+		"ubicacion": "Cádiz, España",
+		"otraRed": "twitch.tv/thedanirep",
+		"seguidores":[
+				{
+					"idUsuario": 2,
+					"nombre": "Samantha Gangal"
+				},
+				{
+					"idUsuario": 7,
+					"nombre": "Damien Ashley"
+				}
+			],
+			"siguiendo":[3,8,10],
+		"tweets":[
+			{
+				"contenido": "Se ha ido la luz en mi casa chicos... lo siento acabar asi el directo, nos vemos esta tarde con los videitos",
+				"fechaPublicacion": "20/Agosto/2020",
+				"likes": [
+					{
+						"idUsuario": 7,
+						"nombre": "Damien Ashley"
+					}
+				],
+				"retweets": [
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" 
+					}
+				],
+				"respuestas": [
+					{
+						"idRespuesta": 1,
+						"idUsuario": 8,
+						"nombre": "Ashley Brown",
+						"contenido": "Latinoamerica moment",
+						"fechaPublicacion": "20/Agosto/2020"
+					},
+					{
+						"idRespuesta": 2,
+						"idUsuario": 6,
+						"nombre": "Abner Castillo",
+						"contenido": "Esta bien dani te queremos igual",
+						"fechaPublicacion": "20/Agosto/2020"
+					}
+				]
+		}
+		],
+		"tweetFoto":[
+			{
+				"idImagen": 1,
+				"urlImagen": "../img/img@DaniRep/1.jpg",
+				"contenido": "Deseando que salga ya el nuevo DLC y ojalá la nueva localización sea una nueva isla en el mapa (de ilusiones se vive xD)",
+				"fechaPublicacion": "2/Agosto/2020",
+				"likes": [
+					{
+						"idUsuario": 7,
+						"nombre": "Damien Ashley"
+					}
+				],
+				"retweets": [
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" 
+					}
+				],
+				"respuestas": [
+					{
+						"idRespuesta": 1,
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" ,
+						"contenido": "Supuestamente sale a finales de verano, no?",
+						"fechaPublicacion": "2/Agosto/2020"
+					}
+				]
+			}
+		]
+	},
+	{
+		"idUsuario": 2,
+		"nombre": "Samantha Gangal",
+		"usuario": "@littlesamkay",
+		"contraseña": "asd986",
+		"telefono": 90872457,
+		"correo": "esteesmicorreo@hotmail.com",
+		"fechaUnion": "Marzo 2018",
+		"fechaNacimiento": "23/Septiembre/2003",
+		"urlPerfil": "../img/imagenesPerfil/2.jpg",
+		"urlEncabezado": "../img/imgEncabezados/2.jpg",
+		"verificado": false,
+		"biografia": "16 years Actress - Singer - Model",
+		"ubicacion": "Los Angeles, USA",
+		"otraRed": "linktr.ee/littlesamkay",
+		"seguidores":[
+			{
+				"idUsuario": 3,
+				"nombre": "Dasha Taran"
+			},
+			{
+				"idUsuario": 8,
+				"nombre": "Ashley Brown"
+			}
+		],
+		"siguiendo":[1,6,5],
+		"tweets":[
+		{
+			"contenido": "Weekend...I’ll be right there",
+			"fechaPublicacion": "21/Agosto/2020",
+			"likes": [
+				{
+					"idUsuario": 6,
+					"nombre": "Abner Castillo"
+				},
+				{
+					"idUsuario": 10,
+					"nombre": "Lisa Vicari"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 6,
+					"nombre": "Abner Castillo" 
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 10,
+					"nombre": "Lisa Vicari",
+					"contenido": "Weekend vibes",
+					"fechaPublicacion": "21/Agosto/2020"
+				}
+			]
+		}
+		],
+		"tweetFoto":[
+			{
+				"idImagen": 1,
+				"urlImagen": "../img/img@littlesamkay/1.jpg",
+				"contenido": "When u need a quick nap..",
+				"fechaPublicacion": "20/Junio/2020",
+				"likes": [
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo"
+					},
+					{
+						"idUsuario": 8,
+						"nombre": "Ashley Brown"
+					}
+				],
+				"retweets": [
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" 
+					}
+				],
+				"respuestas": [
+					{
+						"idRespuesta": 1,
+						"idUsuario": 8,
+						"nombre": "Ashley Brown",
+						"contenido": "Absolutely love your style",
+						"fechaPublicacion": "27/Junio/2020"
+					}
+				]
+			}
+		]
+	},
+	{
+		"idUsuario": 3,
+		"nombre": "Dasha Taran",
+		"usuario": "@tarankaaa",
+		"contraseña": "asd985",
+		"telefono": 99574326,
+		"correo": "dasha@hotmail.com",
+		"fechaUnion": "Noviembre 2017",
+		"fechaNacimiento": "12/Octubre/1999",
+		"urlPerfil": "../img/imagenesPerfil/3.jpg",
+		"urlEncabezado": "../img/imgEncabezados/3.jpg",
+		"verificado": false,
+		"biografia": "Rainmaker. this is my life account",
+		"ubicacion": "Rusia",
+		"otraRed": "rainnm.com",
+		"seguidores":[
+			{
+				"idUsuario": 1,
+				"nombre": "Daniel Hidalgo Pérez"
+			},
+			{
+				"idUsuario": 2,
+				"nombre": "Samantha Gangal"
+			},
+			{
+				"idUsuario": 5,
+				"nombre": "Karimova Elina"
+			},
+			{
+				"idUsuario": 8,
+				"nombre": "Ashley Brown"
+			}
+		],
+		"siguiendo":[4,5,7],
+		"tweets":[
+		{
+			"contenido": "like a snake",
+			"fechaPublicacion": "30/Junio/2020",
+			"likes": [
+				{
+					"idUsuario": 8,
+					"nombre": "Ashley Brown" 
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 5,
+					"nombre": "Karimova Elina"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 9,
+					"nombre": "Hari Kumar",
+					"contenido": "life snake man",
+					"fechaPublicacion": "17/Agosto/2020"
+				}
+			]
+		}
+		],
+		"tweetFoto":[
+			{
+				"idImagen": 1,
+				"urlImagen": "../img/img@tarankaaa/1.jpg",
+				"contenido": "describe your mood using only emoji",
+				"fechaPublicacion": "2/Junio/2020",
+				"likes": [
+					{
+						"idUsuario": 2,
+						"nombre": "Samantha Gangal"
+					}
+				],
+				"retweets": [
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" 
+					},
+					{
+						"idUsuario": 2,
+						"nombre": "Samantha Gangal"
+					}
+				],
+				"respuestas": [
+					{
+						"idRespuesta": 1,
+						"idUsuario": 2,
+						"nombre": "Samantha Gangal",
+						"contenido": "you make me back to happy mood",
+						"fechaPublicacion": "17/Agosto/2020"
+					}
+				]
+			}
+		]
+	},
+	{
+		"idUsuario": 4,
+		"nombre": "John Cooper",
+		"usuario": "@johnlcooper",
+		"contraseña": "asd984",
+		"telefono": 90980321,
+		"correo": "john532@gmail.com",
+		"fechaUnion": "Julio 2008",
+		"fechaNacimiento": "07/Abril/1975",
+		"urlPerfil": "../img/imagenesPerfil/4.jpg",
+		"urlEncabezado": "../img/imgEncabezados/4.jpg",
+		"verificado": true,
+		"biografia": "Singer for Skillet.",
+		"ubicacion": "USA",
+		"otraRed": "youtu.be/i8Zz3sn8Bps",
+		"seguidores":[
+			{
+				"idUsuario": 7,
+				"nombre": "Damien Ashley"
+			},
+			{
+				"idUsuario": 9,
+				"nombre": "Hari Kumar"
+			}
+		],
+		"siguiendo":[2,7,8],
+		"tweets":[
+		{
+			"contenido": "I had the privilege of speaking at the young men’s group at my church this week. It was awesome! Psychologists, sociologists, and parents everywhere agree that boys are being left behind these days.",
+			"fechaPublicacion": "23/Julio/2020",
+			"likes": [
+				{
+					"idUsuario": 9,
+					"nombre": "Hari Kumar"
+				},
+				{
+					"idUsuario": 7,
+					"nombre": "Damien Ashley"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 9,
+					"nombre": "Hari Kumar"
+				},
+				{
+					"idUsuario": 7,
+					"nombre": "Damien Ashley"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 7,
+					"nombre": "Damien Ashley",
+					"contenido": "Wow! Having a leader like you is a great privilege. Lucky guys",
+					"fechaPublicacion": "23/Julio/2020"
+				}
+			]
+		}
+		],
+		"tweetFoto":[
+			{
+				"idImagen": 1,
+				"urlImagen": "../img/img@johnlcooper/1.jpg",
+				"contenido": "Victorious sky tour starts tomorrow!!",
+				"fechaPublicacion": "21/Septiembre/2019",
+				"likes": [
+					{
+						"idUsuario": 7,
+						"nombre": "Damien Ashley"
+					},
+					{
+						"idUsuario": 9,
+						"nombre": "Hari Kumar"
+					}
+				],
+				"retweets": [
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" 
+					}
+				],
+				"respuestas": [
+					{
+						"idRespuesta": 1,
+						"idUsuario": 9,
+						"nombre": "Hari Kumar",
+						"contenido": "Please add an Arizona or Albuquerque NM date so we can come see you guys again!! Love Skillet!!",
+						"fechaPublicacion": "21/Septiembre/2019"
+					}
+				]
+			}
+		]
+	},
+	{
+		"idUsuario": 5,
+		"nombre": "Karimova Elina",
+		"usuario": "@KarimovaElina1",
+		"contraseña": "asd983",
+		"telefono": 90975312,
+		"correo": "karieli@yahoo.com",
+		"fechaUnion": "Mayo 2019",
+		"fechaNacimiento": "22/Abril/1998",
+		"urlPerfil": "../img/imagenesPerfil/5.jpg",
+		"urlEncabezado": "../img/imgEncabezados/5.jpg",
+		"verificado": false,
+		"biografia": "Idol | Modelo | música",
+		"ubicacion": "Seol, Corea",
+		"otraRed": "instagram.com/elina_4_22",
+		"seguidores":[
+			{
+				"idUsuario": 3,
+				"nombre": "Dasha Taran"
+			},
+			{
+				"idUsuario": 8,
+				"nombre": "Ashley Brown"
+			}
+		],
+		"siguiendo":[4,1,9],
+		"tweets":[
+		{
+			"contenido": "I want to change my hair color, what color should I do?" ,
+			"fechaPublicacion": "14/Agosto/2020",
+			"likes": [
+				{
+					"idUsuario": 3,
+					"nombre": "Dasha Taran"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 3,
+					"nombre": "Dasha Taran"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 3,
+					"nombre": "Dasha Taran",
+					"contenido": "I think it's look beautiful with brown and black mix it looks good on u or any natural color ",
+					"fechaPublicacion": "15/Agosto/2020"
+				}
+			]
+		}
+		],
+		"tweetFoto":[
+			{
+				"idImagen": 1,
+				"urlImagen": "../img/img@KarimovaElina1/1.jpg",
+				"contenido": "Do you like anime?",
+				"fechaPublicacion": "10/Mayo/2020",
+				"likes": [
+					{
+						"idUsuario": 3,
+						"nombre": "Dasha Taran"
+					}
+				],
+				"retweets": [
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" 
+					},
+					{
+						"idUsuario": 3,
+						"nombre": "Dasha Taran"
+					}
+				],
+				"respuestas": [
+					{
+						"idRespuesta": 1,
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" ,
+						"contenido": "Yes I love anime",
+						"fechaPublicacion": "24/Mayo/2020"
+					}
+				]
+			}
+		]
+	},
+	{
+		"idUsuario": 6,
+		"nombre": "Abner Castillo",
+		"usuario": "@AbCastillo",
+		"contraseña": "asd982",
+		"telefono": 90912468,
+		"correo": "castillo89@hotmail.com",
+		"fechaUnion": "Diciembre 2016",
+		"fechaNacimiento": "27/Febrero/1993",
+		"urlPerfil": "../img/imagenesPerfil/6.jpg",
+		"urlEncabezado": "../img/imgEncabezados/6.jpg",
+		"verificado": false,
+		"biografia": "El peor enemigo de un gobierno corrupto es un pueblo culto.",
+		"ubicacion": "Roma, Italia",
+		"otraRed": "instagram.com/AbCasti",
+		"seguidores":[
+			{
+				"idUsuario": 7,
+				"nombre": "Damien Ashley"
+			},
+			{
+				"idUsuario": 9,
+				"nombre": "Hari Kumar"
+			}
+		],
+		"siguiendo":[2,1,10,8],
+		"tweets":[
+		{
+			"contenido": "PORTATECI KHEDIRA, RUGANI E HIGUAIN E VINCEMO ER QUARTO E LA DECIMA. FORZA LUPA DA AURELIO DE TOR BELLA MONACA",
+			"fechaPublicacion": "17/Agosto/2020",
+			"likes": [
+				{
+					"idUsuario": 9,
+					"nombre": "Hari Kumar"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 7,
+					"nombre": "Damien Ashley"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 7,
+					"nombre": "Damien Ashley",
+					"contenido": "A cosa ci siamo ridotti mi chiedo io",
+					"fechaPublicacion": "17/Agosto/2020"
+				}
+			]
+		}
+		],
+		"tweetFoto":[
+			{
+				"idImagen": 1,
+				"urlImagen": "../img/img@AbCastillo/1.jpg",
+				"contenido": "Gli uccelli cantano la mattina",
+				"fechaPublicacion": "20/Julio/2020",
+				"likes": [
+					{
+						"idUsuario": 7,
+						"nombre": "Damien Ashley"
+					}
+				],
+				"retweets": [
+					{
+						"idUsuario": 4,
+						"nombre": "John Cooper" 
+					}
+				],
+				"respuestas": [
+					{
+						"idRespuesta": 1,
+						"idUsuario": 1,
+						"nombre": "Daniel Hidalgo Pérez",
+						"contenido": "¡¡Están Hermosos!!",
+						"fechaPublicacion": "26/Julio/2020"
+					}
+				]
+			}
+		]
+	},
+	{
+		"idUsuario": 7,
+		"nombre": "Damien Ashley",
+		"usuario": "@DaAsh",
+		"contraseña": "asd981",
+		"telefono": 93974321,
+		"correo": "dashley@hotmail.com",
+		"fechaUnion": "Enero 2015",
+		"fechaNacimiento": "01/Mayo/1987",
+		"urlPerfil": "../img/imagenesPerfil/7.jpg",
+		"urlEncabezado": "../img/imgEncabezados/7.jpg",
+		"verificado": false,
+		"biografia": "Amante del Deporte. Conocedor de Música Under. Un Gamer amante de la nostalgia.",
+		"ubicacion": "Ciudad del Cabo, Sudafrica",
+		"otraRed": "linktr.ee/Damien",
+		"siguiendo":[2,4,2],
+		"tweets":[
+		{
+			"contenido": "Después de tanto. Siempre sale el sol.",
+			"fechaPublicacion": "21/Agosto/2020",
+			"likes": [
+				{
+					"idUsuario": 9,
+					"nombre": "Hari Kumar" 
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 9,
+					"nombre": "Hari Kumar"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 9,
+					"nombre": "Hari Kumar",
+					"contenido": "Lo que tuvo que perder para ganar",
+					"fechaPublicacion": "21/Agosto/2020"
+				}
+			]
+		}
+		],
+		"tweetFoto":[
+			{
+				"idImagen": 1,
+				"urlImagen": "../img/img@DaAsh/1.jpg",
+				"contenido": "Estoy listo para el partido!!",
+				"fechaPublicacion": "22/Agosto/2020",
+				"likes": [
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo"
+					},
+					{
+						"idUsuario": 9,
+						"nombre": "Hari Kumar"
+					}
+				],
+				"retweets": [
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" 
+					}
+				],
+				"respuestas": [
+					{
+						"idRespuesta": 1,
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" ,
+						"contenido": "Sera emocionate, Ya quiero verlo!!!",
+						"fechaPublicacion": "22/Agosto/2020"
+					}
+				]
+			}
+		]
+	},
+	{
+		"idUsuario": 8,
+		"nombre": "Ashley Brown",
+		"usuario": "@AshBrown",
+		"contraseña": "asd980",
+		"telefono": 90321467,
+		"correo": "yosoyashley@hotmail.com",
+		"fechaUnion": "Marzo 2013",
+		"fechaNacimiento": "29/Octubre/1993",
+		"urlPerfil": "../img/imagenesPerfil/8.jpg",
+		"urlEncabezado": "../img/imgEncabezados/8.jpg",
+		"verificado": false,
+		"biografia": "Give the love around and back around it goes",
+		"ubicacion": "Buenos Aires, Argentina",
+		"otraRed": "linktr.ee/AshBro",
+		"seguidores":[
+			{
+				"idUsuario": 7,
+				"nombre": "Damien Ashley"
+			},
+			{
+				"idUsuario": 2,
+				"nombre": "Samantha Gangal"
+			}
+		],
+		"siguiendo":[1,2,3],
+		"tweets":[
+		{
+			"contenido": "Ya ando mood “stalker” en las páginas de meteorología por la depresión tropical #13.",
+			"fechaPublicacion": "20/Agosto/2020",
+			"likes": [
+				{
+					"idUsuario": 2,
+					"nombre": "Samantha Gangal"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 7,
+					"nombre": "Damien Ashley"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 7,
+					"nombre": "Damien Ashley",
+					"contenido": "¿Aun no tiene nombre? ¿Qué página recomiendas?",
+					"fechaPublicacion": "20/Agosto/2020"
+				}
+			]
+		}
+		],
+		"tweetFoto":[
+			{
+				"idImagen": 1,
+				"urlImagen": "../img/img@AshBrown/1.jpg",
+				"contenido": "Amaría por estar en la playa ahora mismo :(",
+				"fechaPublicacion": "7/Agosto/2020",
+				"likes": [
+					{
+						"idUsuario": 10,
+						"nombre": "Lisa Vicari"
+					},
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo"
+					}
+				],
+				"retweets": [
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" 
+					}
+				],
+				"respuestas": [
+					{
+						"idRespuesta": 1,
+						"idUsuario": 10,
+						"nombre": "Lisa Vicari" ,
+						"contenido": "Pronto estaremos en una playa :D",
+						"fechaPublicacion": "7/Agosto/2020"
+					}
+				]
+			}
+		]
+	},
+	{
+		"idUsuario": 9,
+		"nombre": "Hari Kumar",
+		"usuario": "@HariKu",
+		"contraseña": "asd977",
+		"telefono": 97895423,
+		"correo": "harik@gmail.com",
+		"fechaUnion": "Abril 2015",
+		"fechaNacimiento": "30/Diciembre/1996",
+		"urlPerfil": "../img/imagenesPerfil/9.jpg",
+		"urlEncabezado": "../img/imgEncabezados/9.jpg",
+		"verificado": false,
+		"biografia": "Dios guía mi camino",
+		"ubicacion": "Nueva Delhi, India",
+		"otraRed": "instagram.com/mrHari.j",
+		"seguidores":[
+			{
+				"idUsuario": 4,
+				"nombre": "John Cooper"
+			},
+			{
+				"idUsuario": 7,
+				"nombre": "Abner Castillo"
+			}
+		],
+		"siguiendo":[1,2,7],
+		"tweets":[
+		{
+			"contenido": "Solo Dios puede cambiar a las personas, nosotros, amar así como son y ser amados así",
+			"fechaPublicacion": "16/Julio/2020",
+			"likes": [
+				{
+					"idUsuario": 4,
+					"nombre": "John Cooper"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 4,
+					"nombre": "John Cooper"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 4,
+					"nombre": "John Cooper",
+					"contenido": "¡¡Amén!!",
+					"fechaPublicacion": "20/Julio/2020"
+				}
+			]
+		}
+		],
+		"tweetFoto":[
+			{
+				"idImagen": 1,
+				"urlImagen": "../img/img@HariKu/1.jpg",
+				"contenido": "Miremos en la Cruz, la salvación de nuestras Vidas.",
+				"fechaPublicacion": "17/Agosto/2020",
+				"likes": [
+					{
+						"idUsuario": 4,
+						"nombre": "John Cooper"
+					},
+					{
+						"idUsuario": 2,
+						"nombre": "Samantha Gangal"
+					}
+				],
+				"retweets": [
+					{
+						"idUsuario": 4,
+						"nombre": "John Cooper"
+					},
+					{
+						"idUsuario": 1,
+						"nombre": "Daniel Hidalgo Pérez"
+					}
+				],
+				"respuestas": [
+					{
+						"idRespuesta": 1,
+						"idUsuario": 1,
+						"nombre": "Daniel Hidalgo Pérez",
+						"contenido": "Claro que si amigo",
+						"fechaPublicacion": "18/Agosto/2020"
+					}
+				]
+			}
+		]
+	},
+	{
+		"idUsuario": 10,
+		"nombre": "Lisa Vicari",
+		"usuario": "@lisa.vicari",
+		"contraseña": "asd967",
+		"telefono": 91953257,
+		"correo": "vicari90@hotmail.com",
+		"fechaUnion": "Octubre 2009",
+		"fechaNacimiento": "11/Febrero/1997",
+		"urlPerfil": "../img/imagenesPerfil/10.jpg",
+		"urlEncabezado": "../img/imgEncabezados/9.jpg",
+		"verificado": true,
+		"biografia": "DARK - Season 3 now on Netflix",
+		"ubicacion": "Múnich, Alemania",
+		"otraRed": "instagram.com/lisa.vicari",
+		"seguidores":[
+			{
+				"idUsuario": 8,
+				"nombre": "Ashley Brown"
+			}
+		],
+		"siguiendo":[9,2],
+		"tweets":[
+			{
+			"contenido": "glitches in the matrix?",
+			"fechaPublicacion": "9/Julio/2020",
+			"likes": [
+				{
+					"idUsuario": 9,
+					"nombre": "Hari Kumar"
+				}
+			],
+			"retweets": [
+				{
+					"idUsuario": 1,
+					"nombre": "Daniel Hidalgo Pérez"
+				}
+			],
+			"respuestas": [
+				{
+					"idRespuesta": 1,
+					"idUsuario": 8,
+					"nombre": "Ashley Brown",
+					"contenido": "Could it be any more cuter?",
+					"fechaPublicacion": "20/Agosto/2020"
+				}
+			]
+			}
+		],
+		"tweetFoto":[
+			{
+				"idImagen": 1,
+				"urlImagen": "../img/img@lisa.vicari/1.jpg",
+				"contenido": "hands up if you already finished watching season 3",
+				"fechaPublicacion": "28/Junio/2020",
+				"likes": [
+					{
+						"idUsuario": 7,
+						"nombre": "Damien Ashley"
+					},
+					{
+						"idUsuario": 3,
+						"nombre": "Dasha Taran"
+					},
+					{
+						"idUsuario": 5,
+						"nombre": "Karimova Elina"
+					},
+					{
+						"idUsuario": 1,
+						"nombre": "Daniel Hidalgo Pérez"
+					}
+				],
+				"retweets": [
+					{
+						"idUsuario": 6,
+						"nombre": "Abner Castillo" 
+					},
+					{
+						"idUsuario": 1,
+						"nombre": "Daniel Hidalgo Pérez"
+					}
+				],
+				"respuestas": [
+					{
+						"idRespuesta": 1,
+						"idUsuario": 5,
+						"nombre": "Karimova Elina",
+						"contenido": "It was amazing!! good job guysssss",
+						"fechaPublicacion": "19/Agosto/2020"
+					}
+				]
+			}
+		]
+	}
+]

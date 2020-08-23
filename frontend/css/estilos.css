@@ -1,0 +1,665 @@
+body {
+    font-family: system-ui, apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+#presentacion {
+    background-color: #71C9F8;
+    padding: 0;
+    background-image: url(../img/logo.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.principal {
+    height: 575px!important;
+}
+
+#div-terminos {
+    padding: 10px 5px;
+}
+
+#unete {
+    background-color: white;
+    padding: 0;
+}
+
+.iconos-pequenos {
+    fill: white;
+}
+
+.div-contenido {
+    margin-top: 190px;
+    margin-left: 145px;
+}
+
+.iconos-principales {
+    height: 27px;
+    width: 30px;
+}
+
+.letra-iconos {
+    color:white;
+    font-family: system-ui, apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-weight: 750;
+    font-size: 1.2rem;
+}
+
+#contenido-iconos {
+    margin-top: 225px;
+    margin-left: 22%;
+}
+
+#contenido-registro {
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding: 15% 21.23%;
+}
+
+#logo-registro {
+    height: 30px;
+    width: 37px;
+    margin-bottom: 32px;
+}
+
+#texto-mira {
+    color: black;
+    line-height: 39px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+#texto-unete {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.btn {
+    border-radius: 25px;
+    background-color: #1DA1F2;
+    color: white;
+    border-color: #1DA1F2;
+    height: 38px!important;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.iniciar-sesion {
+    background-color: white!important;
+    color: #1DA1F2!important;
+}
+
+.links {
+    color: #657786;
+    line-height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 1%;
+    text-align: center;
+}
+
+#Registrate {
+    margin-top: -9px;
+    margin-bottom: 14px;
+}
+
+.links:hover {
+    color: #657786;
+}
+
+#icono-modal {
+    height: 25px;
+    width: 25px;
+}
+
+.boton-registro {
+    height:30px!important;
+    width: 90px!important;
+    float: right!important;
+    font-size: 15px!important;
+    line-height: 19.7px!important;
+    padding: 0 12px 0 14px;
+}
+
+#mod-cont-registro {
+    border-radius: 10px;
+    border-color: white;
+}
+
+#div-crea-cuenta {
+    font-size: 23px;
+    line-height: 30.2px;
+    font-weight: bold;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 25px;
+}
+
+input[type=text] {
+    background: #F5F8FA;
+    border: none;
+    border-bottom: 2px solid #657786;
+    color:#657786;
+    position: relative;
+    bottom: 2px;
+    padding-top: 10px;
+}
+
+input[type=password] {
+    background: #F5F8FA;
+    border: none;
+    border-bottom: 2px solid #657786;
+    color:#657786;
+    position: relative;
+    bottom: 2px;
+    padding-top: 10px;
+}
+
+
+input[type=text]:focus {
+    outline: none;
+}
+
+input[type=password]:focus {
+    outline: none;
+}
+
+.rotulo-registro {
+    background-color: #F5F8FA;
+    display: inline-block!important;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#657786;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+
+.input-linea {
+    background-color: #F5F8FA;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.row-registrar {
+    box-sizing: border-box!important; 
+    display: block!important;
+    margin: 15px!important;
+}
+
+.nota {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #657786;
+    float: right;
+    padding: 0 25px;
+    position: relative;
+    bottom: 13px;
+}
+
+.correo-invalido {
+    position: relative;
+    top: 3px;
+    left: -13px;
+}
+
+.seleccionar-letra {
+    color:#1DA1F2!important;
+}
+
+.seleccionar-input {
+    border-bottom: 2px solid #1DA1F2!important;
+}
+
+.seleccionar-letra-invalido {
+    color: #E2356B!important;
+}
+
+.seleccionar-input-invalido {
+    border-bottom: 2px solid #E2356B!important;
+}
+
+.link-pequeño {
+    font-size: 15px!important;
+    line-height: 20px!important;
+    font-weight: 400!important;
+    color: #1b95e0!important;
+}
+
+.link-pequeño:hover {
+    text-decoration: underline!important;
+    cursor: pointer;
+}
+
+#fecha-nacimiento {
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.texto-inf {
+    color:#657786;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.fecha {
+    border:0px;
+    outline:0px;
+    border-bottom: 2px solid #657786;
+    background: #F5F8FA;
+    padding-top: 0;
+    position: relative;
+    bottom: 2px;
+}
+
+.inicio-sesion:hover {
+    text-decoration: none;
+}
+
+#sesion {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#titulo-sesion {
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    padding-top: 35px;
+    display: inline-block;
+}
+
+#img-sesion {
+    height:35px;
+    width:35px;
+}
+
+.seccion {
+    border-right: solid 1px #E6ECF0;
+    border-right: solid 1px #E6ECF0;  
+}
+
+.barra-lateral {
+    padding-left: 3%;
+    max-width: 311px!important;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.svg-circle {
+    fill: #1DA1F2;
+    width: 30px;
+}
+
+.svg-no-seleccion {
+    fill: black;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.boton-seccion {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 25px;
+}
+
+.boton-seccion:hover .svg-no-seleccion{
+    background-color: #E8F5FE;
+    color:  #1DA1F2;
+    fill:  #1DA1F2;
+}   
+
+.boton-seccion:hover {
+    background-color: #E8F5FE;
+    color: #1DA1F2;
+    fill: #1DA1F2;
+} 
+
+.boton-seccion:focus, textarea:focus {
+    outline: none;
+}
+
+.boton-redondo {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+.boton-redondo:hover {
+    background-color: #E8F5FE;
+}
+
+.letras-seccion {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    color: black;
+}
+
+.boton-twittear {
+    margin-top: 10px!important;
+    height: 48px!important;
+    max-width: 211px!important;
+    margin-left: 2%!important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 900px){
+    .letras-seccion {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        color: black;
+    }
+
+    .svg-no-seleccion {
+        fill: black;
+        width: 25px;
+        /* margin-right: 15px; */
+        /* margin: auto; */
+        margin-left: 0px;
+    }
+
+    .barra-lateral {
+        padding-left: 0%;
+        max-width: 311px!important;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    .boton-twittear {
+        margin-top: 10px!important;
+        /* height: 48px!important; */
+        max-width: 211px!important;
+        margin-left: 2%!important;
+    }
+
+    .btn {
+        border-radius: 25px;
+        background-color: #1DA1F2;
+        color: white;
+        border-color: #1DA1F2;
+        height: 38px!important;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 700;
+    }
+
+    #opciones-usuario {
+        position: absolute;
+        width: auto;
+    }
+
+    #tendencias {
+        display: none;
+    }
+
+    #data-button {
+        display:none;
+    }
+
+    #data-button {
+        display:none;
+    }
+
+    #emoji-button {
+        display:none;
+    }
+
+    #twittear-inicio {
+        bottom: 20px!important;
+    }
+
+    #opciones-twittear {
+        padding-top: 5%;
+    }
+
+    #buscador {
+        display: none;
+    }
+}
+
+@media (max-width: 1080px) {
+
+    #buscador {
+        display: none;
+    } 
+
+    #cuadro-tendencias {
+        display: none;
+    }
+
+    #cuadro-seguir {
+       display: none;
+    }
+
+    #tendencias-seguir {
+        display: none;
+    }
+
+}
+
+#opciones-usuario {
+    position: relative; 
+    right: px; 
+    width: 300px
+}
+
+#icono-perfil {
+    border-radius: 50px;
+}
+
+#img-icono {
+    border: none;
+    border-radius: 50%;
+    width: 65px;
+    border-radius: 60px;
+}
+
+#encabezado-inicio {
+    height: 58px;
+    border-bottom: solid 1px #E6ECF0;
+    padding-top: 18px; 
+    padding-bottom: 18px;
+}
+
+#letra-encabezado-inicio {
+   font-weight: 800;
+   line-height: 25px;
+   font-size: 19px;
+   padding-left: 15px;
+}
+
+#boton-estrella {
+    position: relative;
+    bottom: 20px;
+    float: right;
+}
+
+#twittear {
+    height: 160px;
+    border-bottom: solid 1px #E6ECF0;
+}
+
+#texto-twittear {
+    width: 530px;
+    border-bottom: solid 1px #E6ECF0
+}
+
+::placeholder {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.opciones-twittear {
+    padding-top: 15px;
+}
+
+#buscador {
+    background-color: #E6ECF0;
+    border-radius: 20px;
+    margin-top: 15px;
+    height: 41px;
+}
+
+#input-buscador {
+    background-color: #E6ECF0;
+    height: 44px;
+    border-bottom: none;
+    height: 35px;
+    max-width: 60%;
+    bottom: 1%;
+}
+
+.cuadros-principal {
+    background-color: #F5F8FA;
+    margin-top: 18px;
+    border-radius: 20px;
+}
+
+#titulo-tendencias {
+    background-color: #F5F8FA;
+    border-bottom: solid 1px #E6ECF0;
+    height: 43px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.tendencias {
+    background-color: #F5F8FA;
+    border-bottom: solid 1px #E6ECF0;
+    height: 85px;
+}
+
+#boton-tuerca {
+    background-color:#F5F8FA;
+}
+
+.letras-tema {
+    color: #657786;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.letras-hashtags {
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+#ver-mas-tendencias {
+    height: 43px;
+}
+
+#letras-mas-tendencias {
+    font-weight:400;
+    font-size: 15px;
+    line-height:20px;
+    color: #1da1f2;
+    padding-top: 20px;
+    padding-left: 15px
+}
+
+.usuarios-seguir {
+    background-color: #F5F8FA;
+    border-bottom: solid 1px #E6ECF0;
+    height: 85px;
+}
+
+.letras-cuenta {
+    color: #7C8C99;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.letras-usuario-nombre {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: black
+}
+
+.letras-usuario-nombre:hover {
+    color: black
+}
+
+.seccion-tweet-texto {
+    border-bottom: solid 1px #E6ECF0;
+    padding-top: 15px;
+}
+
+.td-imagen-tweet {
+    margin-bottom: 220%;
+}
+
+.tweet-texto {
+    padding-right: 5%;
+    padding-left: 3%;
+}
+
+.contador-acciones {
+
+}
+
+
+.tweet-imagen {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 265px;
+    padding: 0px;
+}
+
+.imagen-tweeteada {
+    height:265px;
+    width: inherit;
+}
+
+#login-invalido {
+    color: #E2356B; 
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
